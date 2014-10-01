@@ -17,7 +17,7 @@
 
     Sub PullTheMeat()
         MessageBox.Show("Grab a couple of forks")
-        MessageBox.Show("Pull the meat of the bones")
+        MessageBox.Show("Pull the meat off the bones")
     End Sub
 
     Sub AddVeggies()
@@ -34,4 +34,7 @@
         MessageBox.Show("Add noodles and increase heat")
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
